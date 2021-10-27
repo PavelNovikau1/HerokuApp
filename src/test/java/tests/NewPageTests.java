@@ -27,7 +27,7 @@ public class NewPageTests {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         driver.get("C:///Users/Pavel/IdeaProjects/QA_08onl/HerokuApp/src/test/resources/newPage.html");
-        boolean webDriver = driver.findElement(By.id("table")).isDisplayed();
+        boolean isTableDisplayed = driver.findElement(By.id("table")).isDisplayed();
         assertTrue(webDriver);
         driver.quit();
     }
@@ -43,7 +43,7 @@ public class NewPageTests {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         driver.get("C:///Users/Pavel/IdeaProjects/QA_08onl/HerokuApp/src/test/resources/newPage.html");
-        boolean webDriver = driver.findElement(By.id("login")).isDisplayed();
+        boolean isLoginElementDisplayed = driver.findElement(By.id("login")).isDisplayed();
         assertTrue(webDriver);
         driver.quit();
     }
@@ -59,7 +59,7 @@ public class NewPageTests {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         driver.get("C:///Users/Pavel/IdeaProjects/QA_08onl/HerokuApp/src/test/resources/newPage.html");
-        boolean webDriver = driver.findElement(By.id("checkbox")).isDisplayed();
+        boolean isCheckBoxtDisplayed  = driver.findElement(By.id("checkbox")).isDisplayed();
         assertTrue(webDriver);
         driver.quit();
     }
@@ -75,7 +75,7 @@ public class NewPageTests {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         driver.get("C:///Users/Pavel/IdeaProjects/QA_08onl/HerokuApp/src/test/resources/newPage.html");
-        boolean webDriver = driver.findElement(By.id("select cars")).isDisplayed();
+        boolean isDropDownListDisplayed = driver.findElement(By.id("select cars")).isDisplayed();
         assertTrue(webDriver);
         driver.quit();
     }
@@ -107,7 +107,7 @@ public class NewPageTests {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         driver.get("C:///Users/Pavel/IdeaProjects/QA_08onl/HerokuApp/src/test/resources/newPage.html");
-        boolean webDriver = driver.findElement(By.id("paragraph")).isDisplayed();
+        boolean isParagraphElementDisplayed = driver.findElement(By.id("paragraph")).isDisplayed();
         assertTrue(webDriver);
         driver.quit();
     }
@@ -123,7 +123,7 @@ public class NewPageTests {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         driver.get("C:///Users/Pavel/IdeaProjects/QA_08onl/HerokuApp/src/test/resources/newPage.html");
-        boolean webDriver = driver.findElement(By.id("link")).isDisplayed();
+        boolean isHyperLinktDisplayed = driver.findElement(By.id("link")).isDisplayed();
         assertTrue(webDriver);
         driver.quit();
     }
